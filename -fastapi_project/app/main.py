@@ -13,3 +13,10 @@ async def cicd_test():
         "status": "success",
         "message": "Jenkins CI/CD is working"
     }
+
+@app.get("/newcicd-test")
+async def cicd_test():
+    return {
+        "status": "success",
+        "message": "Jenkins CI/CD is working"
+    }
